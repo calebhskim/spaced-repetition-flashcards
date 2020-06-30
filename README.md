@@ -4,7 +4,7 @@
 If you're curious on how to run/use this repo checkout [Create React App](https://github.com/facebook/create-react-app).
 
 ## Question and Timing Configuration
-If you want to either modify the questions edit `./src/constants/questions.js`. A sample question looks something like:   
+If you want to modify the questions edit `./src/constants/questions.js`. A sample question looks something like:   
 ```
   {
     id: 5, // Unique identifier
