@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/spaced-repetition-flashcards/precache-manifest.f8b3e2a9c0f3df8b6bb570b8cdf5e4a5.js"
+  "/spaced-repetition-flashcards/precache-manifest.2cf05c829129a5f25dcdbcb588e31e2e.js"
 );
 
 self.addEventListener('message', (event) => {
