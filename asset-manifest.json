@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/spaced-repetition-flashcards/static/css/main.e335ba89.chunk.css",
+    "main.js": "/spaced-repetition-flashcards/static/js/main.565a1a26.chunk.js",
+    "main.js.map": "/spaced-repetition-flashcards/static/js/main.565a1a26.chunk.js.map",
+    "runtime-main.js": "/spaced-repetition-flashcards/static/js/runtime-main.26edfc4a.js",
+    "runtime-main.js.map": "/spaced-repetition-flashcards/static/js/runtime-main.26edfc4a.js.map",
+    "static/js/2.cdb26925.chunk.js": "/spaced-repetition-flashcards/static/js/2.cdb26925.chunk.js",
+    "static/js/2.cdb26925.chunk.js.map": "/spaced-repetition-flashcards/static/js/2.cdb26925.chunk.js.map",
+    "index.html": "/spaced-repetition-flashcards/index.html",
+    "precache-manifest.f8b3e2a9c0f3df8b6bb570b8cdf5e4a5.js": "/spaced-repetition-flashcards/precache-manifest.f8b3e2a9c0f3df8b6bb570b8cdf5e4a5.js",
+    "service-worker.js": "/spaced-repetition-flashcards/service-worker.js",
+    "static/css/main.e335ba89.chunk.css.map": "/spaced-repetition-flashcards/static/css/main.e335ba89.chunk.css.map",
+    "static/js/2.cdb26925.chunk.js.LICENSE.txt": "/spaced-repetition-flashcards/static/js/2.cdb26925.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26edfc4a.js",
+    "static/js/2.cdb26925.chunk.js",
+    "static/css/main.e335ba89.chunk.css",
+    "static/js/main.565a1a26.chunk.js"
+  ]
+}
