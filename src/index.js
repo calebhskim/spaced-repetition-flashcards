@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { Provider } from 'react-redux';
+
+import App from './components/App';
+import initialState from './constants/initialState';
+import Store from './store';
 import * as serviceWorker from './serviceWorker';
 
+import './index.css';
+
+// Grab the state from a global variable injected during SSR or use constant state
+const preloadedState = window.PRELOADED_STATE || initialState;
+const store = new Store(preloadedState);
+
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 

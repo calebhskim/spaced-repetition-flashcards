@@ -1,0 +1,42 @@
+.results {
+  height: 400px;
+  width: 700px;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+}
+
+.question-stats {
+  overflow: auto;
+  max-height: 300px;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.stat-group {
+  margin: 5px;
+}
+
+.stat-title {
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+}
+
+.stat {
+  margin-left: 5px;
+}
+
+.summary {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.summary-title {
+  font-weight: bold;
+  margin: 5px;
+}

@@ -1,0 +1,40 @@
+.answer-check {
+  position: absolute;
+  right: 0;
+  bottom: -60px;
+  width: 150px;
+}
+
+.card {
+  height: 300px;
+  width: 250px;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+}
+
+.card-progress {
+  width: 100%;
+  margin-bottom: 20px !important;
+}
+
+.label-modifier {
+  display: flex;
+  align-items: center;
+}
+
+.modifier-check {
+  color: green;
+  margin-left: 3px !important;
+}
+
+.modifier-times {
+  color: red;
+  margin-left: 3px !important;
+}
+
+.question-form {
+  position: relative;
+}

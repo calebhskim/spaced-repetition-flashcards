@@ -1,0 +1,63 @@
+.app-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.menubutton {
+}
+
+.menuclose {
+  position: absolute;
+  right: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbutton {
+  width: 250px;
+  height: 50px;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: white;
+}
+
+.sidenav.open {
+  width: 250px;
+}
+
+.sidenav.close {
+  width: 0px;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
